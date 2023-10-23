@@ -88,7 +88,9 @@ After the coach submits the form with the team name and number of players, the s
 1. web browser creates an HTTP `GET` request to the server using the base URL for the resource (`/best`) and encoding the team and player number either as URL parameters (`/best/team=my_team_name&show=11`)(note: `GET` request is used because the request is only fetching data.
 2. Web Server detects that the request is "dynamic" and forwards it to the Web Application for processing.
 3. Web Application identifies that the intention of the request is to get the "best lineup" based on the URL (`/best/`) and finds out the required team name and number of players from the URL. Web Application then gets the required information from the database (using additional "internal" parameter to define which players are "best")
-4. Web Application dynamically creates an HTML page by putting the data (from the Database) into **placeholders** inside an HTML template.
+4. Web Application dynamically creates an HTML page by putting the data of "best players" (from the Database) into **placeholders** inside an HTML template.
 5. Web Application returns the generated HTML to the web browser (via the Web Server), along with an HTTP status code of "`200 OK`". If anything prevents the HTML from being returned then the Web Application will return another code.
 6. web browser start to process the return HTML, sending separate requests to get any other CSS or Javascript files that it references.
 7. Web Server loads static files from the file system and returns them to the broswer directly. 
+
+[Reference](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview)
