@@ -47,7 +47,9 @@ HTTP requests can also have a body, but it is empty in this case.
 #### The response 
 Below is the first part of the response
 
-![Screenshot 2023-10-23 at 11 42 15](https://github.com/sone9545/networking-notes/assets/146074161/2f661f26-e4f7-4a1b-b7da-acbb08410f69)
+![Screenshot 2023-10-23 at 11 44 02](https://github.com/sone9545/networking-notes/assets/146074161/9e429773-3478-454d-a9d4-6db3fcc6807c)
+
+
 
 
 * the first line includes the response code `200 OK`, which tells us the request succeeded
