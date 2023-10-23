@@ -28,7 +28,8 @@ Both static and dynamic websites use exactly the same communication protocol/pat
 a simple `GET` request by clicking on a link or searching on a site (like a search engine homepage). 
 
 #### The Request
-![Screenshot 2023-10-22 at 22 28 55](https://github.com/sone9545/networking-notes/assets/146074161/07d2c9a7-791a-4379-8fde-fece8e3b99f1)
+![Screenshot 2023-10-23 at 11 41 47](https://github.com/sone9545/networking-notes/assets/146074161/1c0b6914-daec-42b4-a9d1-d204e47ff585)
+
 
 Each line of request contains information about it. The first part is called the **header**, and contains useful information about the request (same way an HTML head contains useful information about the document)
 
@@ -46,7 +47,8 @@ HTTP requests can also have a body, but it is empty in this case.
 #### The response 
 Below is the first part of the response
 
-![Screenshot 2023-10-22 at 22 45 12](https://github.com/sone9545/networking-notes/assets/146074161/12742fd3-987c-480a-bcff-64260525a1cf)
+![Screenshot 2023-10-23 at 11 42 15](https://github.com/sone9545/networking-notes/assets/146074161/2f661f26-e4f7-4a1b-b7da-acbb08410f69)
+
 
 * the first line includes the response code `200 OK`, which tells us the request succeeded
 * we can see that the response is `text/html` formatted (`Content-Type`).
